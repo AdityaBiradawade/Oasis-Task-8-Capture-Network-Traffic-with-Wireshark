@@ -23,7 +23,7 @@ The included **.pcap** file contain a short capture of local network activity in
 **1. ARP (Address Resolution Protocol)**
 - Used to map IP addresses to MAC addresses.
 - present as broadcasts:
-     - **who has <192.168.x.x>? Tell <192.168.x.x>
+     - **who has 192.168.x.x ? Tell 192.168.x.x**
 - Shows local device discovery and communication with the gateway/router.
   
 **2. DNS (Domain Name System) Queries**
