@@ -23,7 +23,7 @@ The included **.pcap** file contain a short capture of local network activity in
 **1. ARP (Address Resolution Protocol)**
 - Used to map IP addresses to MAC addresses.
 - present as broadcasts:
-     - **who has <IP>? Tell <IP>
+     - **who has <192.168.x.x>? Tell <192.168.x.x>
 - Shows local device discovery and communication with the gateway/router.
   
 **2. DNS (Domain Name System) Queries**
@@ -51,3 +51,5 @@ dns
 arp
 ip
 
+# Conclusion
+This task demonstrated the fundamental process of capturing and analyzing network traffic using Wireshark on a Kali Linux virtual machine. By reviewing ARP, DNS, TCP, and HTTP packets, we gained insight into how devices communicate on a network and how application-layer data flows through the lower layers. The included capture file (wireshark_capture.pcap) showcases real examples of packet exchanges, making it a useful reference for learning network analysis. Overall, this exercise strengthens understanding of network fundamentals and provides practical  experience with one of the most essential tools used in cybersecurity and network diagnostics.
